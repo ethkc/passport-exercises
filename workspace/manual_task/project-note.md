@@ -1,4 +1,7 @@
 # Training Project Note
+## Verification
+
+Staged diff must be reviewed before publishing.
 
 ## Purpose
 
