@@ -1,0 +1,37 @@
+{
+  "answers": {
+    "pr_roles": [
+      "correct"
+    ],
+    "staged_diff": [
+      "correct"
+    ]
+  },
+  "artifacts": [
+    "workspace/manual_task/project-note.md"
+  ],
+  "attestation": {
+    "reviewed": true,
+    "no_secrets": true,
+    "observed_result": true
+  },
+  "curriculum_version": "2.1.2",
+  "mission": "git-manual-pr",
+  "receipts": {
+    "checks": {
+      "bounded_diff": true,
+      "conventional_commit": true,
+      "draft_pr": true,
+      "practice_branch": true
+    },
+    "passed": true,
+    "practice": {
+      "branch": "practice/ethkc",
+      "head_sha": "a90b796ec4daafa815bbfca9971c4295b5a03b73",
+      "pull_request": 1,
+      "repository": "ethkc/passport-exercises"
+    },
+    "verifier": "git_practice"
+  },
+  "schema_version": 2
+}
